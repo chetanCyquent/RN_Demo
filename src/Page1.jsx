@@ -6,7 +6,8 @@ import { useEffect } from 'react';
 
 export default function Page1Screen({ route }) {
   const navigation = useNavigation();
-  const { s1, s2 } = route.params;
+  const s1 = route.params?.s1;
+  const s2 = route.params?.s2;
   useEffect(() => {
     console.log('value1: ' + s1, 'value2: ' + s2);
   }, []);
