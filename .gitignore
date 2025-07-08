@@ -1,0 +1,9 @@
+node_modules
+.expo/devices.json
+.expo/xcodebuild-error.log
+.expo/xcodebuild.log
+
+# Expo
+.expo
+dist/
+web-build/
